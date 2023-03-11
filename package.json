@@ -1,0 +1,10 @@
+{
+  "name": "caprover-deploy-notify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": "./index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "set CAPROVER_NOTIFY_URL=http://localhost:3001/api/notify/build?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6ImQ5NjE5NTdjLWY0ZDUtNGY2ZC04M2ZlLTllNmFkNzIzZDE1OSIsImlhdCI6MTY3ODUzMDY3MH0.ph089Rk9pEeXhLx0Gev1TTzWgNYz2mETTW4NDtwb6bk & set CAPROVER_GIT_COMMIT_SHA=uashduahsdiashiudfgfidgsfg & node index.js"
+  }
+}
